@@ -1,57 +1,46 @@
-<script>
-    // Insert any necessary JavaScript here
-  </script>
-  
-  <div class="bg-white">
-    <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-      <div class="text-center">
-        <h1 class="text-4xl font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-          <span class="block">Inspire Your Creativity</span>
-          <span class="block text-blue-600">with mob.social</span>
-        </h1>
-        <p class="mt-5 text-xl text-gray-500">
-          mob.social is the platform for creatives looking to take control of their content and connect with a like-minded community. With our decentralized and secure network, you can share your work, collaborate with peers, and discover inspiration in a new way.
-        </p>
-        <div class="mt-10">
-          <a href="#" class="text-base font-medium text-blue-600 hover:text-blue-500">Get Started</a>
-        </div>
+<header class="fixed top-0 left-0 w-full h-14 flex items-center justify-between bg-gradient-to-r from-primary to-secondary text-white px-4">
+    <div class="flex items-center space-x-4">
+      <a href="/" class="text-xl font-bold">Muse</a>
+      <nav class="flex space-x-4">
+        <a href="#">Features</a>
+        <a href="#">Pricing</a>
+        <a href="#">Blog</a>
+      </nav>
+    </div>
+    <div class="flex items-center space-x-4">
+      <a href="#">Sign In</a>
+      <a href="#" class="bg-yellow-500 px-4 py-2 rounded-md text-white hover:bg-yellow-600">Sign Up</a>
+    </div>
+  </header>
+
+  <section class="bg-primary text-white py-20">
+    <div class="max-w-6xl mx-auto flex flex-col items-center justify-center">
+      <div class="mb-10">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-64 h-64 bg-neutral rounded-full p-4">
+            <symbol id="icon-document" viewBox="0 0 20 20">
+              <path d="M15,0H5C3.9,0,3,0.9,3,2v16c0,1.1,0.9,2,2,2h10c1.1,0,2-0.9,2-2V2C17,0.9,16.1,0,15,0z M15,18H5v-2h10V18z M15,14H5v-2h10V14z M15,10H5V8h10V10z"/>
+            </symbol>
+            <symbol id="icon-save" viewBox="0 0 20 20">
+              <path d="M11,0L1,5v12c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5L11,0z M14,16H6v-2h8V16z M14,12H6v-2h8V12z M16,5.2l-4-2.4L8,5.2v2.3h8V5.2z"/>
+            </symbol>
+          </svg>
+      </div>
+      <h1 class="text-4xl font-bold mb-6 text-center">
+        Write and Create with <span class="text-accent">Inspiration</span> from the Muses
+      </h1>
+      <p class="text-lg mb-10 text-center">
+        Muse is the perfect tool for creative professionals to unleash their imagination and bring their ideas to life. 
+        With an easy-to-use interface and a suite of powerful tools, Muse makes it simple to write, design, and collaborate with others in real-time.
+      </p>
+      <div class="flex justify-center items-center space-x-6">
+        <svg class="w-16 h-16 text-neutral fill-current animate-bounce">
+          <use href="#icon-document" />
+        </svg>
+        <p class="text-lg mb-0">Write, Edit, and Collaborate on Documents</p>
+        <svg class="w-16 h-16 text-neutral fill-current animate-bounce">
+          <use href="#icon-save" />
+        </svg>
+        <p class="text-lg mb-0">Save Your Work Securely to the Cloud</p>
       </div>
     </div>
-  </div>
-  
-  <div class="py-16 bg-gray-50 overflow-hidden">
-
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="lg:text-center">
-        <p class="text-base leading-6 text-blue-600 font-semibold tracking-wide uppercase">Decentralized Network</p>
-        <h2 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-          Share Your Work Securely
-        </h2>
-        <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
-          With our decentralized network, you can take control of your content and connect with a like-minded community without worrying about censorship or data privacy issues. Our secure platform ensures that your work is safe and your privacy is protected.
-        </p>
-      </div>
-  
-      <div class="mt-20">
-        <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          <div class="pt-6">
-            <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-              <div class="-mt-6">
-                <div>
-                  <span class="inline-flex items-center justify-center p-3 bg-blue-600 rounded-md shadow-lg">
-                    <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
-                  </span>
-                </div>
-                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
-                  Secure Communication
-                </h3>
-                <p class="mt-5 text-base text-gray-500">
-                  Communicate with other creatives and share your work securely, without worrying about surveillance or censorship.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div></div></div>
+  </section>
