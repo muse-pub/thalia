@@ -1,5 +1,11 @@
 name: 'Publish release'
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+
+  push:
+    branches:
+      - 'main'
+      - 'releases/**'
 
 jobs:
   publish-tauri:
@@ -15,7 +21,7 @@ jobs:
       - name: Setup NodeJS
         uses: actions/setup-node@v1
         with:
-          node-version: 18
+          node-version: 16
 
       - name: Install Rust
         uses: actions-rs/toolchain@v1
