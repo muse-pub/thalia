@@ -15,8 +15,8 @@
     },
     "bundle": {
       "active": true,
-      "category": "DeveloperTool",
-      "copyright": "",
+      "category": "Productivity",
+      "copyright": "2023 Muse Corp",
       "deb": {
         "depends": []
       },
@@ -28,8 +28,8 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
-      "longDescription": "",
+      "identifier": "com.muse.pub",
+      "longDescription": "muse.pub - a new way to create",
       "macOS": {
         "entitlements": null,
         "exceptionDomain": "",
@@ -57,7 +57,7 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "Muse Public",
+        "title": ":: muse.pub ::",
         "width": 800
       }
     ]
