@@ -28,6 +28,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-svelte3": "^4.0.0",
     "gsap": "^3.11.5",
+    "mdsvex": "^0.10.6",
     "postcss": "^8.4.14",
     "postcss-load-config": "^4.0.1",
     "prettier": "^2.8.0",
@@ -41,5 +42,10 @@
     "vite": "^4.2.0",
     "vitest": "^0.25.3"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@theatre/core": "^0.6.0",
+    "@theatre/studio": "^0.6.0",
+    "dexie": "^4.0.1-alpha.10"
+  }
 }

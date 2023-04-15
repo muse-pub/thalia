@@ -7,13 +7,8 @@ root = true
 [*]
 end_of_line = crlf
 insert_final_newline = true
-
-# Matches multiple files with brace expansion notation
-# Set default charset
-[*.{js,py,ts,svelte}]
-charset = utf-8
-
-# 2 space indentation
-[*.{py,js,ts,svelte}]
 indent_style = space
 indent_size = 2
+charset = utf-8
+
+
